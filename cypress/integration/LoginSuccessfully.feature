@@ -1,5 +1,5 @@
-Feature: Navigate and Login Commcare Website Successfully
-    Scenario Outline: Verify login successfully with valid Email Address and Password
+Feature: Feature name
+    Scenario: Verify login successfully with valid Email Address and Password
         Given I open website
         And I type <emailAddress> in the email address field
         And I type <password> in the password field
