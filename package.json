@@ -1,0 +1,14 @@
+{
+  "name": "commcarehq",
+  "version": "1.0.0",
+  "description": "Test Comm Care HQ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "thuhaphamdlv",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^5.5.0"
+  }
+}
