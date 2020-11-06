@@ -1,4 +1,4 @@
-import { Given, And, Then, When } from "cypress-cucumber-preprocessor/steps";
+import { Given, And, Then } from "cypress-cucumber-preprocessor/steps";
 
 /// <reference types="cypress" />
 

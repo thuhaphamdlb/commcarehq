@@ -26,7 +26,7 @@
 
 Cypress.Commands.add('OpenWebsite', (url) => {
     cy.visit(url);
-    cy.wait(5000);
+    cy.wait(3000);
 })
 
 Cypress.Commands.add('LoginFunction', (emailAddress, password) => {
