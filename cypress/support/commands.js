@@ -23,3 +23,13 @@
 //
 // -- This will overwrite an existing command --
 // Cypress.Commands.overwrite("visit", (originalFn, url, options) => { ... })
+
+const url = ' https://www.commcarehq.org/'
+
+Cypress.Commands.add('LoginFunction', (emailAddress, password) => {
+    cy.visit(url);
+    cy.get('#id_auth-username').click().type(emailAddress);
+    cy.get('#id_auth-password').click().type(password);
+    cy.get('//button[@type="submit"]').click();
+    cy.wait(3000);
+})

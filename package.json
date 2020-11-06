@@ -9,6 +9,13 @@
   "author": "thuhaphamdlv",
   "license": "ISC",
   "dependencies": {
-    "cypress": "^5.5.0"
+    "cypress": "^5.5.0",
+    "cypress-xpath": "^1.6.1"
+  },
+  "devDependencies": {
+    "cypress-cucumber-preprocessor": "^2.5.5"
+  },
+  "cypress-cucumber-preprocessor": {
+    "stepDefinitions": "cypress/integration/stepExcuteCommCareHQ"
   }
 }
